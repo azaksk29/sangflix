@@ -1,17 +1,14 @@
-import React, { Component } from 'react'
-// import Header from './Header'
+import React from 'react';
 import MyRouter from './MyRouter'
+import Sglobal from './GlobalStyle'
 
-class App extends Component {
-  render() {
-    return (
-      <>
-        {/* <Header /> */}
-        <MyRouter />
-      </>
-    );
-  }
-  
+function App() {
+  return (
+    <>
+      <MyRouter />
+      <Sglobal />
+    </>
+  );
 }
 
 export default App;
