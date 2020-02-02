@@ -14,7 +14,7 @@ const Sglobal = createGlobalStyle`
     body{
         font-family:Georgia, "Malgun Gothic", serif;
         font-size:12px;
-        backgroud-color:rgba(20,20,20,1);
+        background-color:rgba(20,20,20,1);
         color:white;
         padding-top:50px
     }

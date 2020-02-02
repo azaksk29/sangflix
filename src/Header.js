@@ -1,5 +1,5 @@
 import React from "react"
-import { Link } from "react-router-dom"
+import { Link, withRouter } from "react-router-dom"
 import styled from "styled-components"
 
 const Sheader = styled.header`
@@ -22,6 +22,9 @@ const Sitem = styled.li`
     width: 80px;
     height: 50px;
     text-align: center;
+    border-bottom: 3px solid 
+         ${props => (props.current ? "#3498db" : "transparent")};
+    transition : border-bottom 0.2s ease-in-out;
 `;
 const Slink = styled(Link)`
     height: 50px;
@@ -30,21 +33,21 @@ const Slink = styled(Link)`
     justify-content: center;
 `;
 
-export default () => (    
+export default withRouter( ({ location: { pathname } }) => (
     <Sheader>
         <Slist>
-            <Sitem>
+            <Sitem current={pathname === "/"}>
                 <Slink to="/">Home</Slink>
             </Sitem>
-            <Sitem>
+            <Sitem current={pathname === "/movie"}>
                 <Slink to="/movie">Movie</Slink>
             </Sitem>
-            <Sitem>
+            <Sitem current={pathname === "/tv"}>
                 <Slink to="/tv">TV</Slink>
             </Sitem>
-            <Sitem>
+            <Sitem current={pathname === "/search"}>
                 <Slink to="/search">Search</Slink>
             </Sitem>
         </Slist>
     </Sheader>
-);
+));
