@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "bf0caaa560f1898932381f6d1b7f20cf",
+    "revision": "82d440edb627a7a3a16ed418e43037ce",
     "url": "/sangflix/index.html"
   },
   {
@@ -12,8 +12,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/sangflix/static/js/2.753a0aaa.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "a0763d4d00dbe4883a13",
-    "url": "/sangflix/static/js/main.e91db119.chunk.js"
+    "revision": "00612c784c5c959d37d0",
+    "url": "/sangflix/static/js/main.20348bbb.chunk.js"
   },
   {
     "revision": "ac2aadc90de36af0e4bf",
