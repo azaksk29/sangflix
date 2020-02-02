@@ -1,8 +1,9 @@
 import React from 'react';
+import Router from './Router'
 
 function App() {
   return (
-    <h1>Hello Sangflix</h1>
+    <Router />
   );
 }
 
