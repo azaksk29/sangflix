@@ -1,9 +1,13 @@
 import React from 'react';
+import Header from './Header'
 import MyRouter from './MyRouter'
 
 function App() {
   return (
-    <MyRouter />
+    <>
+      <Header />
+      <MyRouter />
+    </>
   );
 }
 
