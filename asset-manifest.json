@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.js": "/sangflix/static/js/main.da3c3844.chunk.js",
-    "main.js.map": "/sangflix/static/js/main.da3c3844.chunk.js.map",
+    "main.js": "/sangflix/static/js/main.e91db119.chunk.js",
+    "main.js.map": "/sangflix/static/js/main.e91db119.chunk.js.map",
     "runtime-main.js": "/sangflix/static/js/runtime-main.3f0e4c0b.js",
     "runtime-main.js.map": "/sangflix/static/js/runtime-main.3f0e4c0b.js.map",
-    "static/js/2.800308f1.chunk.js": "/sangflix/static/js/2.800308f1.chunk.js",
-    "static/js/2.800308f1.chunk.js.map": "/sangflix/static/js/2.800308f1.chunk.js.map",
+    "static/js/2.753a0aaa.chunk.js": "/sangflix/static/js/2.753a0aaa.chunk.js",
+    "static/js/2.753a0aaa.chunk.js.map": "/sangflix/static/js/2.753a0aaa.chunk.js.map",
     "index.html": "/sangflix/index.html",
-    "precache-manifest.7a0ea46f64c7e92f13dae7c9837ba289.js": "/sangflix/precache-manifest.7a0ea46f64c7e92f13dae7c9837ba289.js",
+    "precache-manifest.1ff9f2b1d0c4eefaf1b8cffbbf7609e7.js": "/sangflix/precache-manifest.1ff9f2b1d0c4eefaf1b8cffbbf7609e7.js",
     "service-worker.js": "/sangflix/service-worker.js",
-    "static/js/2.800308f1.chunk.js.LICENSE.txt": "/sangflix/static/js/2.800308f1.chunk.js.LICENSE.txt"
+    "static/js/2.753a0aaa.chunk.js.LICENSE.txt": "/sangflix/static/js/2.753a0aaa.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.3f0e4c0b.js",
-    "static/js/2.800308f1.chunk.js",
-    "static/js/main.da3c3844.chunk.js"
+    "static/js/2.753a0aaa.chunk.js",
+    "static/js/main.e91db119.chunk.js"
   ]
 }
